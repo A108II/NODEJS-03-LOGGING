@@ -15,8 +15,6 @@ setTimeout(() => {
   emitter.emit('message', 'Important message')
 }, 1500)
 
-
-
 emitter.on('message', message => logEvents(message));
 
 
